@@ -144,14 +144,3 @@
 # Using snake case
 
 # credit_score = 700
-
-
-
- 
-
-
-
-
-
-
-

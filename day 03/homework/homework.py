@@ -17,6 +17,3 @@ price = 50
 color ="red"
 
 message = "andria magaria"
-
-
-

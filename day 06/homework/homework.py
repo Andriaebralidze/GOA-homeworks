@@ -17,13 +17,13 @@ print(num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10)
 
 name = input("your name ")
 
-print("My " "name " "is " + name)
+print("My name is " + name)
 
 #დავალება 4
 
-number = 30
+number = input("Enter some random number: ")
 
-print(number + 5)
+print(int(number) + 5)
 
 #დავალება 5
 

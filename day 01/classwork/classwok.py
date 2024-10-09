@@ -31,4 +31,3 @@ isUgly = False # ჯავასკრიპტული camelcase
 #print(type(knows_programming))
 
 print(name + " " + str(age))
-
