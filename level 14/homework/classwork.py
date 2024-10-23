@@ -31,8 +31,8 @@ for i in range(49, 51):
 
 # 7) დაპრინტეთ რიცხვები 16'იდან 57'მდე while loop'ის მეშვეობით
 
-x = 0
+x = 16
 
-while x < 100:
+while x < 57:
     print(x)
     x = x + 1
