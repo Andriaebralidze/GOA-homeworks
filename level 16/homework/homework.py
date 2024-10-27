@@ -2,7 +2,7 @@
 
 result = 1
 
-for i in range(1, 20 + 1):
+for i in range(1, 10 + 1):
     result = result * i
 print(result)
 
@@ -11,7 +11,7 @@ print(result)
 result = 1
 num = 1
 
-while num != 20 + 1:
+while num < 20 + 1:
     result = result * num
     num = num + 1
 
@@ -30,11 +30,11 @@ else:
 
 student_score = int(input("Please enter your score: "))
 
-if student_score > 90 and student_score <= 100:
+if student_score >= 90 and student_score <= 100:
     print("Your grade is A")
-elif student_score > 80 and student_score <= 90:
+elif student_score >= 80 and student_score <= 90:
     print("Your grade is B")
-elif student_score > 70 and student_score <= 80:
+elif student_score >= 70 and student_score <= 80:
     print("Your grade is C")
 else:
     print("Your grade is D")
