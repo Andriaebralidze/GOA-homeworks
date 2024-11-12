@@ -1,44 +1,32 @@
 # 2) შექმენით ფუნქცია რომელიც დააბრუნებს "You got discount" თუ მომხმარებელი არის არასრულწლოვანი, სხვა შემთხვევაში დააბრუნებს "You didn't get discount"
 
 def adult_check(age):
-     if age >=18:
+     if age < 18:
          return "You got discount"
      else:
          return "You didn't get discount"
+     
+print(adult_check(16))
     
 
 # 3) შექმენით ფუნქცია manual_reverse, რომელიც არგუმენტად მიიღებს string'ს და დააბრუნებს ამ string'ს ოღონდ შეტრიალებულად
 
-s = "ANDRIA"
-s = s[::-1]
+def Manual_Reverse(string1):
+    return string1[::-1]
+
+print(Manual_Reverse("andria"))
 
 # 4) გატესტეთ .upper(), .lower(), .capitalize(), .swapcase() და .find() მეთოდები
 
-s = "andria"
-s = s.upper()
+print("andria".upper())
 
-print(s)
+print("ANDRIA".lower())
 
+print("andria".capitalize())
 
-s = "andria"
-s = s.find("a")
+print("andria".swapcase())
 
-print(s)
-
-s = "aNdRiA"
-s = s.swapcase()
-
-print(s)
-
-s = "andria"
-s = s.capitalize()
-
-print(s)
-
-s = "ANDRIA"
-s = s.lower()
-
-print(s)
+print("andria".find("a"))
 
 # 5) ახსენით რატომ ჰქვიათ ამ ფუნქციებს მეთოდები
 
