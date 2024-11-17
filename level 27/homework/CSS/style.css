@@ -1,0 +1,17 @@
+p{
+    color: red;
+    background-color: black;
+}
+ 
+img{
+    height: 100px; width: 100px;
+}
+
+div p{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+ul p{ 
+    color: rgb(255, 255, 255);
+}
