@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+p{
+    color: rgb(147,255 ,169 );
+    background-color: black;
+    text-shadow: 0 0 5px red;
+    font-size: 20px;
+    font-family: "Ga Maamli" ;
+}
+
+h1{
+    text-shadow: 0 0 5px red;
+    font-size: 20px;
+    font-family: "Exo 2";
+}
+
+h2{
+    text-shadow: 0 0 5px red;
+    font-size: 20px;
+    font-family: "Yeseva One";
+}
+
+b{
+    color: black;
+    background-color: white;
+    text-shadow: none;
+}
+
+div p{
+    text-align: center;
+    color: rgb(147,255 ,169 );
+    background-color: black;
+    text-shadow: 0 0 5px red;
+    font-size: 20px;
+    font-family: "Ga Maamli" ;
+}
+
+img{
+    height: 500px;
+    width: 800px;
+}
+
+a{
+    color: rgb(147,255 ,169 );
+    background-color: black;
+    text-shadow: 0 0 5px red;
+    font-size: 20px;
+    font-family: "Ga Maamli" ;
+}
