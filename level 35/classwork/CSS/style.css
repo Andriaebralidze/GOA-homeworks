@@ -1,0 +1,44 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}
+
+tr:nth-child(1){
+    background-color: gray;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+input[type="submit"]{
+    background-color: red;
+}
+input[type="text"]{
+    background-color: red;
+}
+input[type="email"]{
+    background-color: red;
+}
+input[type="password"]{
+    background-color: red;
+}
+
+div{
+    width: 500px;
+    height: 500px;    
+    background-color: yellow;
+    border-radius: 250px 50px 250px 50px;
+}
