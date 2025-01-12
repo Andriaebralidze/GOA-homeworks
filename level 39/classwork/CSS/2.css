@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    width: 20%;
+    height: 62vh;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    border-radius: 15px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    color: hsl(216, 15%, 48%);
+    width: 280px;
+    font-size: 17px;
+}

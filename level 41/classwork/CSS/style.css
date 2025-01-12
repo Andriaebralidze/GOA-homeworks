@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    width: 51%;
+    height: 55vh;
+    display: flex;
+}
+
+.divjr{
+    height: 100%;
+    width: 33.3%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.div2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.div3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.heading{
+    font-family: "Big Shoulders Display";
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text{
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+button{
+    border: none;
+    width: 150px;
+    height: 55px;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.div1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.div2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+
+.div3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.divjr div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+img{
+    width: 70px;
+}

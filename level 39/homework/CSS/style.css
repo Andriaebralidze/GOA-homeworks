@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-color: hsl(244, 38%, 16%);
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+.left, .right{
+    width: 50%;
+    height: 60vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    border-radius: 0 5px 5px 0;
+}
+
+.right{
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 5px 5px 0;
+}
+
+.left{
+    padding: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div1{
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.div2{
+    font-family: "Lexend Deca";
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 46px;
+}
+
+h1 span{
+    color: hsl(277, 64%, 61%);
+}
+
+.div1 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 85%;
+    line-height: 30px;
+    font-size: 18px;
+}
+

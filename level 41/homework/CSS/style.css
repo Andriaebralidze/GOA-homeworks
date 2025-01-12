@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Ga+Maamli&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.container{
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px hsl(221, 100%, 96%);
+}
+
+.left, .right{
+    width: 50%;
+    height: 100%;
+}
+
+.left{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-text{
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.left div{
+    background-color: red;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.seven{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+.of{
+    color: hsla(241, 100%, 89%, 0.5);
+}
+
+.great{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bottom-text{
+    color: hsl(241, 100%, 89%);
+    width: 220px;
+    text-align: center;
+}
+
+.right{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div1, .div2, .div3, .div4{
+    width: 100%;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.div1 div, .div2 div, .div3 div, .div4 div{
+    display: flex;
+    gap: 10px;
+}
+
+.div1 p{
+    color: hsl(0, 100%, 67%);
+}
+
+.div2{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.div3{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.div4{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.div2 p{
+    color: hsl(39, 100%, 56%);
+}
+
+.div3 p{
+    color: hsl(166, 100%, 37%);
+}
+
+.div4 p{
+    color: hsl(234, 85%, 45%);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top-right{
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 17px;
+    border-radius: 25px;
+    cursor: pointer;
+}

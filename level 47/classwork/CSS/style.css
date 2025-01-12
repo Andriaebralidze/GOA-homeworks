@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yeseva+One&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card {
+    text-align: center;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333333;
+}
+
+.description {
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+
+.prep-time, .ingredients, .instructions, .nutrition {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: hsla(32, 10%, 34%, 0.678);
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin: 0 20px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 1rem;
+    color: hsla(32, 10%, 34%, 0.678);
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid hsl(30, 18%, 87%);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: hsl(30, 18%, 87%);
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strong{
+    font-family: "Young Serif";
+}
