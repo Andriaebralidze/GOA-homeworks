@@ -18,8 +18,6 @@ except NameError:
 
 # 3) დაწერეთ ისეთი კოდი სადაც იქნება IndexError და გაუმკლავდით try/except'ით
 
-listn = [1, 2, 3, 4, 5, 6]
-
 
 
 # 4) დაწერეთ ისეთი კოდი სადაც იქნება ValueError და გაუმკლავდით try/except'ით
