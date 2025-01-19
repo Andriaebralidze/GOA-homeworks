@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+    height: 100vh;
+  }
+  
+  .move-on-hover {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+  }
+  
+  .move-on-hover:hover {
+    transform: translateX(50px);
+    background-color: red;
+  }
+
+  .scale-on-hover {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+  }
+  
+  .scale-on-hover:hover {
+    transform: scale(2);
+  }
+  
+
+
+  .scale-on-hover {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+  }
+  
+  .scale-on-hover:hover {
+    transform: scale(1.5);
+  }
+  
+  .scale-on-hover:active {
+    transform: scale(0.5);
+  }
