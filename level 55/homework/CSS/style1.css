@@ -1,0 +1,16 @@
+@keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  .element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: moveRight 2s forwards;
+  }
+  

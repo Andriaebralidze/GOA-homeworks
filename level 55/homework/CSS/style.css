@@ -1,0 +1,15 @@
+@keyframes colorChange {
+    0% {
+      background-color: red;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+  
+  .element {
+    width: 100px;
+    height: 100px;
+    animation: colorChange 3s forwards;
+  }
+  

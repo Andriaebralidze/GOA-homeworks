@@ -1,0 +1,17 @@
+@keyframes rotateForever {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .element {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: rotateForever 1s linear infinite;
+  }
+  
