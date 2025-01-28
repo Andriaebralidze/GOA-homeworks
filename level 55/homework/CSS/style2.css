@@ -12,6 +12,5 @@
     height: 100px;
     background-color: orange;
     border-radius: 50%;
-    animation: rotateForever 1s linear infinite;
+    animation: rotateForever 1s  infinite;
   }
-  

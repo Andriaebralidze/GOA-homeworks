@@ -11,6 +11,6 @@
     width: 100px;
     height: 100px;
     background-color: blue;
-    animation: moveRight 2s forwards;
+    animation: moveRight 2s infinite;
   }
   
