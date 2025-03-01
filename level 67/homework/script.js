@@ -1,14 +1,27 @@
 // 1)
 function sumArray(arr) {
-    return arr.reduce((acc, num) => acc + num, 0);
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
 }
 
 // 2)
 function minMaxArray(arr) {
-    let min = Math.min(...arr);
-    let max = Math.max(...arr);
+    let min = arr[0];
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
     return [min, max];
 }
+
 
 // 3)
 function createRandomArray(n) {
@@ -19,16 +32,29 @@ function createRandomArray(n) {
     return arr;
 }
 
+
 // 4)
 function squareArray(arr) {
-    return arr.map(num => num ** 2);
+    let squaredArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        squaredArr.push(arr[i] ** 2);
+    }
+    return squaredArr;
 }
 
 // 5)
 function roundNumber(num) {
-    return {
-        floor: Math.floor(num),
-        ceil: Math.ceil(num),
-        round: Math.round(num)
-    };
+    let result = {};
+    let operations = ['floor', 'ceil', 'round'];
+    for (let i = 0; i < operations.length; i++) {
+        let operation = operations[i];
+        if (operation === 'floor') {
+            result.floor = Math.floor(num);
+        } else if (operation === 'ceil') {
+            result.ceil = Math.ceil(num);
+        } else if (operation === 'round') {
+            result.round = Math.round(num);
+        }
+    }
+    return result;
 }
